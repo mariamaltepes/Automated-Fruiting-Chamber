@@ -1,9 +1,10 @@
 #define motorPin 11
 void setup() { 
-    pinMode(motorPin,OUTPUT);
-    analogWrite(motorPin,0);
-}
+    pinMode(motorPin,OUTPUT);   
 
-void loop() {
-    analogWrite(motorPin, map(8,0,9,0,255));
 }
+void loop() {
+  digitalWrite(motorPin,HIGH);  
+
+}
+ 
